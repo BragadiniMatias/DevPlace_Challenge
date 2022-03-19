@@ -9,7 +9,6 @@ public class Inciso1 {
         int numberToCheck = sc.nextInt();
         boolean isPrime = true;
 
-        //sacar la logica del main pasarlo a un metodo diferente. 
         if(numberToCheck == 0||numberToCheck ==1){
             System.out.println("El numero " + numberToCheck  + " no es primo");
             isPrime = false;
